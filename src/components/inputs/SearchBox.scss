@@ -1,0 +1,24 @@
+.searchbox {
+    width: 30rem;
+    height: 2rem;
+}
+.searchbox-style {
+    border: 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.navbar-search-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.navbar-search-button {
+    background-color: white;
+    border: 1px solid rgb(236, 236, 236);
+    height: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .searchbox {
+        width: 19rem;
+    }
+}

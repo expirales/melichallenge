@@ -1,0 +1,40 @@
+.item-card-detail {
+    width: 700px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    overflow: hidden;
+    position: relative;
+    list-style: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+.item-card-detail-picture > img {
+    width: 15rem;
+}
+.content-item-detail {
+    width: 235px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-top: 0;
+}
+.content-item-detail > p {
+    color: grey;
+}
+.btn-buy-detail {
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    font-size: large;
+    width: 100%;
+    padding: 5px;
+}
+.item-card-description {
+    color: grey;
+    text-align: justify;
+}

@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Endpoints available from ML API:
+  p Name: /items?q={ search param } | Method: GET | Response: JSON Object | Test: #[a(href="/api/items?q=casa") /api/items?q=casa ]
+  p Name: /items/{ product Id } | Method: GET | Response: JSON Object | Test: #[a(href="/api/items/MLA850579616") /api/items/MLA850579616 ]
+  

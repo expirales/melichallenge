@@ -1,0 +1,15 @@
+.breadcrumb {
+    color: grey;
+    margin-left: 17rem;
+}
+
+@media screen and (max-width: 768px) {
+    .breadcrumb {
+        margin-left: 0.2rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .breadcrumb {
+        margin-left: 1rem;
+    }
+}
