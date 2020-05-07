@@ -16,7 +16,7 @@ Tecnologías implementadas:
 Descarga de proyecto:
 
   - Bajar el codigo fuente del repositorio
-  - ### `git clone https://expirales@bitbucket.org/expirales/melichallenge.git`
+  - ### `https://github.com/expirales/melichallenge.git`
 
 Instalar dependencias 
 
